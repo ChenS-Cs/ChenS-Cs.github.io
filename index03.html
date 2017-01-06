@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <title>Title</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        a{text-decoration:none;color: #ffffff;}
+        body{font-family:'微软雅黑'  !important;font-size: 16px;}
+        li{list-style:none;}
+        img {border:none;display:inline-block !important;vertical-align: bottom;}
+        .f-l{float: left;}
+        .f-r{float: right;}
+        #banner-wrap{
+            width: 100%;
+            margin: 0 auto;
+            position: relative;
+        }
+        #banner-wrap img{
+            width: 100%;
+            height: 100%;
+        }
+        #banner-wrap a{
+            position: absolute;
+            left:50%;
+            top:68.5%;
+            margin-left:-130px ;
+        }
+        #conter-wrap{
+            width: 100%;
+            background: #ca061a;
+        }
+        .conter-li{
+            width: 1190px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .conter-h1{
+            margin-top: 40px;
+        }
+        .conter-h1-top{
+            text-align: center;
+        }
+        .conter-h1-bottom{
+            width: 100%;
+            height: 381px;
+            margin-top: 44px;
+            background:url(https://cbu01.alicdn.com/cms/upload/2017/020/700/3007020_306958577.jpg) no-repeat center;
+            position: relative;
+        }
+        .mleft{
+            position: absolute;
+            top:200px;
+            left: 43px;
+        }
+        .mzhong{
+            position: absolute;
+            top:200px;
+            left: 275px;
+        }
+        .mright{
+            position: absolute;
+            top:200px;
+            left: 502px;
+        }
+        .conter-h1-bottom-zi{
+            text-align: center;
+            line-height: 30px;
+        }
+        .conter-h1-bottom-zi strong{
+            font-size: 20px;
+            color: #ca061a;
+        }
+        .conter-h1-bottom-zi p{
+            font-size: 14px;
+            color: #23201d;
+        }
+        .conter-h1-bottom-gong{
+            position: absolute;
+            left: 215px;
+            bottom: 30px;
+        }
+        #IEgameSwf{
+            margin-right: 47px;
+            margin-top: 35px;
+        }
+        .conter-h2{
+            margin-top: 93px;
+        }
+        .h2-top{
+            text-align: center;
+        }
+        .h2-bottom{
+            width: 100%;
+            height: 556px;
+            background: url(https://cbu01.alicdn.com/cms/upload/2017/110/100/3001011_306958577.png) no-repeat center;
+            margin-top: 27px;
+            overflow: hidden;
+            text-align: center;
+            position: relative;
+        }
+        .h2-bottom-zi{
+            margin-top: 65px;
+        }
+        .h2-bottom-zi p{
+            font-size: 29px;
+            color: #720500;
+            line-height: 40px;
+            text-align: center;
+        }
+        .h2-bottom-zi p strong{
+            font-weight: 100;
+            font-size: 25px;
+            color: #720500;
+        }
+        .hongbao{
+            width: 297px;
+            height: 271px;
+            background: url(https://cbu01.alicdn.com/cms/upload/2017/800/200/3002008_306958577.png) no-repeat center;
+            text-align: center;
+        }
+        .hongbao p{
+            font-size: 32px;
+            line-height: 36px;
+            margin-top: 159px;
+            color: #ffffff;
+        }
+        .hongbao p strong{
+            color: #fff714;
+            font-size:32px ;
+        }
+        .h2-bottom-left{
+            position: absolute;
+            left: 171px;
+            bottom: 115px;
+        }
+        .h2-bottom-right{
+            position: absolute;
+            right: 147px;
+            bottom: 115px;
+        }
+        .conter-h3{
+            margin-top: 44px;
+        }
+        .h3-top{
+            text-align: center;
+        }
+        .h3-bottom{
+            margin-top: 45px;
+            margin-left: 10px;
+        }
+        .h3-bottom img{
+            margin-right: 14px;
+            display: inline-block !important;
+        }
+        .conter-h4{
+            margin-top: 80px;
+        }
+        .h4-bottom{
+            width: 100%;
+            height: 781px;
+            background: #a80314;
+            margin-top: 40px;
+            padding-top: 31px;
+            padding-left: 45px;
+        }
+        .h4-bottom p{
+            color: #ffffff;
+            font-size: 16px;
+            line-height: 30px;
+        }
+        .h4-table{
+            width: 1041px;
+            height: 423px;
+            border-collapse:collapse;
+            margin-top: 20px;
+            margin-left: 30px;
+            margin-bottom: 23px;
+        }
+        table,td,tr,th{
+            border:1px solid #ffe053;
+            text-align: center;
+        }
+        .h4-table th{
+            background:#ffe053;
+            color: #a80314;
+            font-weight: 900;
+        }
+        .h4-table tr,td{
+            height: 60px;
+            width: 207px;
+        }
+        .h4-table td{
+            color: #ffffff;
+        }
+        .table-te p{
+            width: 146px;
+            font-size: 16px;
+            line-height:41px;
+            text-align: left;
+            margin: 0 auto;
+        }
+        .h4-bottom p b{
+            display: inline-block;
+        }
+        .h4-bottom p strong{
+            color: #ffffff;
+        }
+        .h4-bottom p em{
+            font-style: normal;
+            color: #ffe053;
+        }
+        .conter-h5{
+            width: 1130px;
+            margin: 24px auto 0;
+            padding-bottom: 57px;
+        }
+        .conter-h5 p,strong{
+            color: #f9bfc5;
+            font-size: 14px;
+            line-height: 30px;
+        }
+        .conter-h5 strong{
+            float: left;
+            font-weight: 100;
+        }
+    </style>
+</head>
+<body>
+#parse("$pageInfo.header")
+<div id="banner-wrap"><img src="https://cbu01.alicdn.com/cms/upload/2017/310/000/3000013_306958577.jpg"><a href="http://wxb.1688.com/order.html" target="_blank"><img src="https://cbu01.alicdn.com/cms/upload/2017/520/599/2995025_306958577.png"></a></div>
+<div id="conter-wrap">
+    <div class="conter-li">
+        <div class="conter-h1">
+            <div class="conter-h1-top"><img src="https://cbu01.alicdn.com/cms/upload/2017/900/200/3002009_306958577.png"></div>
+            <div class="conter-h1-bottom">
+                <div class="conter-h1-bottom-zi mleft">
+                    <strong>年底准备</strong>
+                    <p>加入网销宝，享优惠，学推广</p>
+                </div>
+                <div class="conter-h1-bottom-zi mzhong">
+                    <strong>抢开年流量</strong>
+                    <p>加入网销宝，享优惠，学推广</p>
+                </div>
+                <div class="conter-h1-bottom-zi mright">
+                    <strong>开年大促，流量爆发</strong>
+                    <p>网销宝助力大促</p>
+                </div>
+                <div class="conter-h1-bottom-gong"><a href="http://wxb.1688.com/hyyx.html?spm=a2609.7909539.0.0.jJQroh&tracelog=xxzx_390banner1_2016127" target="_blank"><img src="https://cbu01.alicdn.com/cms/upload/2017/410/300/3003014_306958577.png"></a></div>
+                <video width="397px" height="316px" controls = "controls"	loop ="loop" autoplay = "autoplay" id="IEgameSwf" class="f-r">
+                    <source src="http://vodcdn.video.taobao.com/oss/taobao-ugc/e9ce85bfbac5481980295dc02312425b/1483579683/video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="conter-h2">
+            <div class="h2-top"><img src="https://cbu01.alicdn.com/cms/upload/2017/410/000/3000014_306958577.png"></div>
+            <div class="h2-bottom">
+                <div class="h2-bottom-zi">
+                    <p>11.11-1.13剩余850名新开户<br/><strong>网销宝会员</strong></p>
+                </div>
+                <div class="h2-bottom-left hongbao">
+                    <p><strong>常规</strong><br/>红包</p>
+                </div>
+                <div class="h2-bottom-right hongbao">
+                    <p><strong>额外68元</strong><br/>红包</p>
+                </div>
+            </div>
+        </div>
+        <div class="conter-h3">
+            <div class="h3-top"><img src="https://cbu01.alicdn.com/cms/upload/2017/510/300/3003015_306958577.png"></div>
+            <div class="h3-bottom">
+                <img src="https://cbu01.alicdn.com/cms/upload/2017/210/999/2999012_306958577.jpg"><img src="https://cbu01.alicdn.com/cms/upload/2017/620/599/2995026_306958577.jpg"><img src="https://cbu01.alicdn.com/cms/upload/2017/510/000/3000015_306958577.jpg" style="margin-right: 0">
+            </div>
+        </div>
+        <div class="conter-h4">
+            <div class="h3-top"><img src="https://cbu01.alicdn.com/cms/upload/2017/410/799/2997014_306958577.png"></div>
+            <div class="h4-bottom">
+                <p><strong>活动时间：</strong>2017年1月11日00:00:00至2017年1月13日23:59:59</p>
+                <p><strong>活动对象：</strong>活动期间内首次加入营销宝的诚信通用户</p>
+                <p><strong>活动规则：</strong><br/>1、活动期间前800名用户首次加入营销宝，即可获得充值赠送的常规红包基础上获得额外活动红包68元（见表一）（详见下表，单位：人民币：元）。</p>
+                <table class="h4-table">
+                    <tr>
+                        <th>充值金额</th>
+                        <th>常规红包</th>
+                        <th>活动红包</th>
+                        <th>合计</th>
+                        <th>备注</th>
+                    </tr>
+                    <tr>
+                        <td>3000</td>
+                        <td>58</td>
+                        <td>68</td>
+                        <td>126</td>
+                        <td rowspan = "6" class="table-te"><p>充值金额超过前一档但未达到下一档的均已前一档的红包数额进行赠送</p></td>
+                    </tr>
+                    <tr>
+                        <td>5000</td>
+                        <td>118</td>
+                        <td>68</td>
+                        <td>186</td>
+                    </tr>
+                    <tr>
+                        <td>10000</td>
+                        <td>508</td>
+                        <td>68</td>
+                        <td>576</td>
+                    </tr>
+                    <tr>
+                        <td>20000</td>
+                        <td>1018</td>
+                        <td>68</td>
+                        <td>1086</td>
+                    </tr>
+                    <tr>
+                        <td>30000</td>
+                        <td>1528</td>
+                        <td>68</td>
+                        <td>1596</td>
+                    </tr>
+                    <tr>
+                        <td>3W及以上</td>
+                        <td colspan = "3">1528+68</td>
+                    </tr>
+                </table>
+                <p><b class="f-l" style="height: 80px;font-weight: 100">2、</b>红包领取规则：充值赠送的常规红包额以首次充值当天累计充值金额计算，用户可于2017年2月28日左右在网销宝红包中心：<em>HTTPS://WXB.1688.COM/HONGBAO.HTML</em>进行领取；红包领取有效期为7天（即可领取首日起的7个自然自内）。</p>
+                <p>举例：假如一个红包在2016年5月12日10点开始领取，7个自然日的领取有效期为2016年5月12日10点到5月19日10点。</p>
+                <p>3、红包使用规则：活动红包自充值进入网销宝账户后有三个月有效期；</p>
+            </div>
+        </div>
+        <div class="conter-h5">
+            <p>注：</p>
+            <strong>1、</strong><p>本次活动所有红包仅限在1688.com网销宝服务中使用，常规红包长期有效，至终止网销宝服务时尚未使用的红包作废，活动红包自红包充值入账后三个月内有效。</p>
+            <strong>2、</strong><p>因用户自身原因无法收到、使用红包，视为用户自动放弃获奖资格，不予补发。</p>
+            <strong style="height: 80px">3、</strong><p>凡参加活动者，即视为同意遵守本活动所有规则、阿里巴巴服务条款、使用规范及其他关于交易的规定。不得以非正常手段参与本活动，包括但不限于不符合本活动规则的规定、弄虚作假、蓄意扰乱本活动、散布未经证实的信息、使用病毒、实施网络攻击、阻挠其他用户参与活动、利用系统漏洞、实施违法行为等，一经发现，阿里巴巴有权终止其参与活动，已经获奖的，阿里巴巴有权取消其获奖资格，并采取回收相应红包等其他措施。</p>
+            <strong>4、</strong><p>活动期间，如遭遇自然灾害、网络攻击或系统故障等不可抗拒原因导致活动暂停举办或导致活动出现问题，阿里巴巴可依相关法律规定主张免责，无需因此承担赔偿或补偿责任。</p>
+            <strong>5、</strong><p>阿里巴巴可以根据本活动的实际情况在法律允许的范围内，对活动规则进行变动或调整，相关变动或调整将公布在活动页面上，并于公布时即时生效。</p>
+        </div>
+    </div>
+</div>
+#parse("$pageInfo.footer")
+</body>
+</html>
